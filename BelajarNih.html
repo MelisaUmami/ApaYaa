@@ -35,19 +35,16 @@
             const nama = document.getElementById("nama").value;
             const nim = document.getElementById("nim").value;
             const jurusan = document.getElementById("jurusan").value;
-            const usia = document.getElementById("usia").value;
 
             const table = document.getElementById("dataTable");
             const row = table.insertRow(-1);
             const cell1 = row.insertCell(0);
             const cell2 = row.insertCell(1);
             const cell3 = row.insertCell(2);
-            const cell4 = row.insertCell(3);
 
             cell1.innerHTML = nama;
             cell2.innerHTML = nim;
-            cell3.innerHTML = jurusan;
-            cell4.innerHTML = usia;
+            cell3.innerHTML = jurusan; 
 
             // Reset form input fields
             document.getElementById("dataForm").reset();
